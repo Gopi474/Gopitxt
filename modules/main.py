@@ -29,7 +29,7 @@ bot = Client(
     bot_token=bot_token)
 
 
-@bot.on_message(filters.command(["Gopi"]))
+@bot.on_message(filters.command(["Gopitxt_bot"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Hi!\n\nGive /Gopi Command to Downlaod From a Text file.\n")
 
